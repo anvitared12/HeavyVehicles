@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f7f8;
+  color: #333;
+}
+
+/* Welcome Page */
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 40px;
+  color: #cfd8dc;
+}
+
+.extra-text {
+  font-size: 0.9rem;
+  color: #b0bec5;
+  margin-top: 20px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: #ff6f00;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.btn:hover {
+  background: #e65100;
+  transform: scale(1.05);
+}
+
+/* Home Page */
+.home-container {
+  padding: 20px;
+  background: #eceff1;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #263238;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.site-name {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffab00;
+}
+
+.user-controls {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.profile {
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.main-content {
+  margin-top: 30px;
+}
+
+.feature-section {
+  margin: 40px 0;
+  padding: 20px;
+  background: #ffffff;
+  border-left: 5px solid #ff6f00;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feature-section h3 {
+  margin-bottom: 10px;
+  color: #37474f;
+}
+
+.feature-section p {
+  color: #546e7a;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.card h4 {
+  margin: 0 0 10px;
+  color: #263238;
+  font-size: 1.2rem;
+}
+
+.card p {
+  color: #546e7a;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  color: #ff6f00;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.marquee {
+  background: #ffcc00;
+  color: #212121;
+  padding: 10px;
+  font-weight: bold;
+  margin: 20px 0 0;
+  border-radius: 5px;
+  font-size: 0.95rem;
+  text-align: center;
+}
